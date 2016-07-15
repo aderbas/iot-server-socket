@@ -1,0 +1,23 @@
+{
+  "name": "IOTBroadcaster",
+  "version": "1.0.0",
+  "description": "IOT Broadcaster",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot",
+    "broadcaster"
+  ],
+  "author": "Aderbal Nunes <aderbalnunes@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "deferred": "^0.7.3",
+    "express": "^4.13.1",
+    "massive": "^2.4.0",
+    "method-override": "^2.3.3",
+    "socket.io": "^1.3.5"
+  }
+}
